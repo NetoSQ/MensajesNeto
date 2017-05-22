@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E13BA5FE535388974C761D8 /* Pods_UIChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0565B689E2598C899371C7 /* Pods_UIChat.framework */; };
+		85FFBCA91ECE0E9B00900C8D /* ConversacionesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FFBCA81ECE0E9B00900C8D /* ConversacionesController.swift */; };
 		930068731ECD425500AF4FE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930068721ECD425500AF4FE4 /* AppDelegate.swift */; };
 		930068751ECD425500AF4FE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930068741ECD425500AF4FE4 /* ViewController.swift */; };
 		930068781ECD425500AF4FE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930068761ECD425500AF4FE4 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29D492CAA4814CF59FD1313D /* Pods-UIChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIChat/Pods-UIChat.release.xcconfig"; sourceTree = "<group>"; };
+		85FFBCA81ECE0E9B00900C8D /* ConversacionesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversacionesController.swift; sourceTree = "<group>"; };
 		9300686F1ECD425500AF4FE4 /* UIChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930068721ECD425500AF4FE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		930068741ECD425500AF4FE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		9300688E1ECD425500AF4FE4 /* UIChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		930068921ECD425500AF4FE4 /* UIChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIChatUITests.swift; sourceTree = "<group>"; };
 		930068941ECD425500AF4FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0565B689E2598C899371C7 /* Pods_UIChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0425E16E8424A5F0A6AD53D /* Pods-UIChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIChat/Pods-UIChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E13BA5FE535388974C761D8 /* Pods_UIChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2329E0C791C904BEAF5A17BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0425E16E8424A5F0A6AD53D /* Pods-UIChat.debug.xcconfig */,
+				29D492CAA4814CF59FD1313D /* Pods-UIChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		930068661ECD425500AF4FE4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,8 @@
 				930068861ECD425500AF4FE4 /* UIChatTests */,
 				930068911ECD425500AF4FE4 /* UIChatUITests */,
 				930068701ECD425500AF4FE4 /* Products */,
+				2329E0C791C904BEAF5A17BC /* Pods */,
+				E1615F33C504419733FD4B99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +121,7 @@
 				930068791ECD425500AF4FE4 /* Assets.xcassets */,
 				9300687B1ECD425500AF4FE4 /* LaunchScreen.storyboard */,
 				9300687E1ECD425500AF4FE4 /* Info.plist */,
+				85FFBCA81ECE0E9B00900C8D /* ConversacionesController.swift */,
 			);
 			path = UIChat;
 			sourceTree = "<group>";
@@ -125,6 +144,14 @@
 			path = UIChatUITests;
 			sourceTree = "<group>";
 		};
+		E1615F33C504419733FD4B99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA0565B689E2598C899371C7 /* Pods_UIChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 930068971ECD425500AF4FE4 /* Build configuration list for PBXNativeTarget "UIChat" */;
 			buildPhases = (
+				DF79D161CD8CD517ADEE0020 /* [CP] Check Pods Manifest.lock */,
 				9300686B1ECD425500AF4FE4 /* Sources */,
 				9300686C1ECD425500AF4FE4 /* Frameworks */,
 				9300686D1ECD425500AF4FE4 /* Resources */,
+				99E20AAF52C8E1B47D375245 /* [CP] Embed Pods Frameworks */,
+				23341FBDA60FBB5A4289E67B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +284,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23341FBDA60FBB5A4289E67B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIChat/Pods-UIChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E20AAF52C8E1B47D375245 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIChat/Pods-UIChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF79D161CD8CD517ADEE0020 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9300686B1ECD425500AF4FE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				930068751ECD425500AF4FE4 /* ViewController.swift in Sources */,
+				85FFBCA91ECE0E9B00900C8D /* ConversacionesController.swift in Sources */,
 				930068731ECD425500AF4FE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,9 +491,11 @@
 		};
 		930068981ECD425500AF4FE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0425E16E8424A5F0A6AD53D /* Pods-UIChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.emiliano.UIChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +505,11 @@
 		};
 		930068991ECD425500AF4FE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D492CAA4814CF59FD1313D /* Pods-UIChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.emiliano.UIChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +590,7 @@
 				930068991ECD425500AF4FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9300689A1ECD425500AF4FE4 /* Build configuration list for PBXNativeTarget "UIChatTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +599,7 @@
 				9300689C1ECD425500AF4FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9300689D1ECD425500AF4FE4 /* Build configuration list for PBXNativeTarget "UIChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +608,7 @@
 				9300689F1ECD425500AF4FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
